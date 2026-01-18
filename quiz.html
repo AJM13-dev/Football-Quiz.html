@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title> Footy Games Quiz </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1> Footy Games Quiz </h1>
+        <h2> Test Your Football Knowledge! </h2>
+        <div id="liveScore">Score: 0</div>
+            <div id="difficultyBox">
+                Difficulty:
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="pro">Pro</option>
+                    <option value="legendary">Legendary</option>
+                </select>
+            </div>
+
+        <form id="quizForm">
+            <label for="q1">1. Which country won the FIFA World Cup in 2018?</label><br>
+            <input type="radio" name="q1" value="a"> Brazil<br>
+            <input type="radio" name="q1" value="b"> Germany<br>
+            <input type="radio" name="q1" value="c"> France<br>
+            <input type="radio" name="q1" value="d"> Argentina<br><br>
+
+            <label for="q2">2. Who is known as "The King of Football"?</label><br>
+            <input type="radio" name="q2" value="a"> Diego Maradona<br>
+            <input type="radio" name="q2" value="b"> Pelé<br>
+            <input type="radio" name="q2" value="c"> Lionel Messi<br>
+            <input type="radio" name="q2" value="d"> Cristiano Ronaldo<br><br>
+
+            <label for="q3">3. Which club has won the most UEFA Champions League titles?</label><br>
+            <input type="radio" name="q3" value="a"> AC Milan<br>
+            <input type="radio" name="q3" value="b"> Liverpool<br>
+            <input type="radio" name="q3" value="c"> Real Madrid<br>
+            <input type="radio" name="q3" value="d"> Bayern Munich<br><br>
+
+            <label for="q4">4. Which country has won the most World Cup titles?</label><br>
+            <input type="radio" name="q4" value="a"> Brazil<br>
+            <input type="radio" name="q4" value="b"> Argentina<br>
+            <input type="radio" name="q4" value="c"> Italy<br>
+            <input type="radio" name="q4" value="d"> Spain<br><br>
+
+            <label for="q5">5. Which Player has scored the fastest goal in Premier leauge History?</label><br>
+            <input type="radio" name="q5" value="a"> Mohammed Salah<br>
+            <input type="radio" name="q5" value="b"> Abdoulaye Doucoure<br>
+            <input type="radio" name="q5" value="c"> Christain Eriksen<br>
+            <input type="radio" name="q5" value="d"> Shane Long<br><br>
+
+            <label></label> Part 2<br>
+            <label for="q6"> Fill in the blanks</label><br>
+            <label for="q6">6. The Premier League consists of ____ teams.</label><br>
+            <input type="text" name="q6" value=""><br>
+
+            <label for="q7">7. _________ is known as "The Prince"</label><br>
+            <input type="text" name="q7" value=""> <br>
+
+            <label>
+            8. The score of the PSG vs Barcelona "Remontada" was
+            </label><br>
+            <div class = "margin">
+                <div class="scoreinput">
+                    <input type="number" min="0" id="q8_left" name="q8_left">
+                    <span>-</span>
+                    <input type="number" min="0" id="q8_right" name="q8_right">
+                </div><br>
+            </div>
+            
+
+            <label for="q9"> France went __ years without a World Cup win from home</label><br>
+            <input type="text" name="q9" value=""> <br>
+
+            <label for="q10"> the fastest Premier League hat-trick was scored by ____________ in just 2 minutes and 56 seconds</label><br>
+            <input type="text" name="q10" value=""> <br>
+
+                        <!-- PART 3 -->
+            <h3>Part 3</h3>
+
+            <label>11. Which country hosted the 2014 FIFA World Cup?</label><br>
+            <input type="radio" name="q11" value="a"> Spain<br>
+            <input type="radio" name="q11" value="b"> Germany<br>
+            <input type="radio" name="q11" value="c"> Brazil<br>
+            <input type="radio" name="q11" value="d"> South Africa<br><br>
+
+            <label>12. Which club is known as “The Red Devils”?</label><br>
+            <input type="radio" name="q12" value="a"> Liverpool<br>
+            <input type="radio" name="q12" value="b"> Manchester United<br>
+            <input type="radio" name="q12" value="c"> AC Milan<br>
+            <input type="radio" name="q12" value="d"> Arsenal<br><br>
+
+            <label>13. Who won the Ballon d’Or in 2022?</label><br>
+            <input type="radio" name="q13" value="a"> Lionel Messi<br>
+            <input type="radio" name="q13" value="b"> Karim Benzema<br>
+            <input type="radio" name="q13" value="c"> Luka Modrić<br>
+            <input type="radio" name="q13" value="d"> Kylian Mbappé<br><br>
+
+            <label>14. Which nation won Euro 2020?</label><br>
+            <input type="radio" name="q14" value="a"> England<br>
+            <input type="radio" name="q14" value="b"> Italy<br>
+            <input type="radio" name="q14" value="c"> France<br>
+            <input type="radio" name="q14" value="d"> Portugal<br><br>
+
+            <label>15. Who is the all-time top scorer in the Champions League?</label><br>
+            <input type="radio" name="q15" value="a"> Messi<br>
+            <input type="radio" name="q15" value="b"> Lewandowski<br>
+            <input type="radio" name="q15" value="c"> Ronaldo<br>
+            <input type="radio" name="q15" value="d"> Benzema<br><br>
+
+            <label>16. Which club plays at the Allianz Arena?</label><br>
+            <input type="radio" name="q16" value="a"> Dortmund<br>
+            <input type="radio" name="q16" value="b"> Bayern Munich<br>
+            <input type="radio" name="q16" value="c"> Leipzig<br>
+            <input type="radio" name="q16" value="d"> Juventus<br><br>
+
+            <label>17. Which country won AFCON 2021?</label><br>
+            <input type="radio" name="q17" value="a"> Senegal<br>
+            <input type="radio" name="q17" value="b"> Egypt<br>
+            <input type="radio" name="q17" value="c"> Morocco<br>
+            <input type="radio" name="q17" value="d"> Nigeria<br><br>
+
+            <label>18. How many players are on the pitch per team?</label><br>
+            <input type="radio" name="q18" value="a"> 9<br>
+            <input type="radio" name="q18" value="b"> 10<br>
+            <input type="radio" name="q18" value="c"> 11<br>
+            <input type="radio" name="q18" value="d"> 12<br><br>
+
+            <label>19. Which club did Messi join in 2021?</label><br>
+            <input type="radio" name="q19" value="a"> Inter Miami<br>
+            <input type="radio" name="q19" value="b"> Man City<br>
+            <input type="radio" name="q19" value="c"> PSG<br>
+            <input type="radio" name="q19" value="d"> Chelsea<br><br>
+
+            <label>20. Who won the first FIFA World Cup?</label><br>
+            <input type="radio" name="q20" value="a"> Brazil<br>
+            <input type="radio" name="q20" value="b"> Italy<br>
+            <input type="radio" name="q20" value="c"> Uruguay<br>
+            <input type="radio" name="q20" value="d"> Argentina<br><br>
+
+            <!-- Fill in the blanks -->
+            <label>21. The World Cup is held every ____ years.</label><br>
+            <input type="text" name="q21"><br>
+
+            <label>22. Cristiano Ronaldo is from __________.</label><br>
+            <input type="text" name="q22"><br>
+
+            <label>23. Barcelona’s stadium is called __________.</label><br>
+            <input type="text" name="q23"><br>
+
+            <label>24. A match lasts ____ minutes.</label><br>
+            <input type="text" name="q24"><br>
+
+            <label>25. The Premier League started in ____.</label><br>
+            <input type="text" name="q25"><br>
+
+            <label>26. __________ won the 2022 World Cup.</label><br>
+            <input type="text" name="q26"><br>
+
+            <label>27. Germany’s nickname is “Die __________”.</label><br>
+            <input type="text" name="q27"><br>
+
+            <label>28. The “Hand of God” was scored by __________.</label><br>
+            <input type="text" name="q28"><br>
+
+            <label>29. VAR means Video __________ Referee.</label><br>
+            <input type="text" name="q29"><br>
+
+            <label>30. “The Blues” refers to __________.</label><br>
+            <input type="text" name="q30"><br><br>
+
+
+            
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+
+        <script>
+const answers = {
+    q1: 'c', q2: 'b', q3: 'c', q4: 'a', q5: 'd',
+    q6: '20', q7: 'neymar jr',
+    q8_left: '6', q8_right: '5',
+    q9: '12', q10: 'sadio mane',
+    q11: 'c', q12: 'b', q13: 'b', q14: 'b', q15: 'c',
+    q16: 'b', q17: 'a', q18: 'c', q19: 'c', q20: 'c',
+    q21: '4', q22: 'portugal', q23: 'camp nou',
+    q24: '90', q25: '1992', q26: 'argentina',
+    q27: 'mannschaft', q28: 'maradona',
+    q29: 'assistant', q30: 'chelsea'
+};
+
+function submitQuiz() {
+    let score = 0;
+    const form = document.getElementById("quizForm");
+    const data = new FormData(form);
+
+    for (let key in answers) {
+        const userAnswer = (data.get(key) || "").trim().toLowerCase();
+        if (userAnswer === answers[key]) score++;
+    }
+
+    let title = "Bench Warmer 🧊";
+    if (score >= 22) title = "GOAT 🐐🔥";
+    else if (score >= 14) title = "Super Sub ⚡";
+
+    document.body.innerHTML = `
+        <div style="text-align:center; margin-top:80px;">
+            <h1>${title}</h1>
+            <h2>Your Score: ${score} / 30</h2>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    `;
+}
+
+function checkInstant(input) {
+    const key = input.name;
+    const correct = answers[key];
+    const value = input.value.trim().toLowerCase();
+
+    input.classList.remove("correct", "wrong");
+
+    if (!value) return;
+
+    if (value === correct) {
+        input.classList.add("correct");
+        goalSound();
+    } else {
+        input.classList.add("wrong");
+    }
+}
+
+
+</script>
+    </body>
+</html>
